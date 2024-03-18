@@ -3,7 +3,7 @@ variable "aws_region" {
 }
 
 variable "cluster_service" {
-  default = "sc__tasteease"
+  default = "sc_tasteease"
 }
 
 variable "cluster_name" {
@@ -19,16 +19,17 @@ variable "desired_capacity" {
 }
 
 variable "image_url" {
+  default = "estrng/tasteease"
 }
 
 variable "container_port" {
-  default = "8080"
+  default = "80"
 }
 
 variable "memory" {
-  default = "512"
+  default = "1024"
 }
 
 variable "cpu" {
-  default = "256"
+  default = "512"
 }
