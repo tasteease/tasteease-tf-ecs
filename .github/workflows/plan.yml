@@ -6,7 +6,7 @@ on:
 env:
   TF_CLOUD_ORGANIZATION: "tasteease"
   TF_API_TOKEN: "${{ secrets.TF_API_TOKEN }}"
-  TF_WORKSPACE: "tasteease-tf"
+  TF_WORKSPACE: "tasteease-tf-ecs"
   CONFIG_DIRECTORY: "./"
 
 jobs:
