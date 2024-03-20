@@ -19,7 +19,7 @@ variable "desired_capacity" {
 }
 
 variable "image_url" {
-  default = "estrng/tasteease:latest"
+  default = "estrng/tasteease:v0.0.28"
 }
 
 variable "container_port" {
